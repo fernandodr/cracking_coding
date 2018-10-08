@@ -6,5 +6,3 @@ def replacer(to_be_transformed):
 		else:
 			replaced += "%20"
 	return replaced
-
-print replacer("something about that")
