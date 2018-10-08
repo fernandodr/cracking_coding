@@ -4,7 +4,7 @@ def reverser(something):
 	print real_length
 	i = real_length - 1
 	formatted_string = ""
-	while(i>=0):
+	while i >= 0:
 		formatted_string += something[i]
 		i -= 1
 	formatted_string += "\\0"
