@@ -1,4 +1,4 @@
-def replacer(to_be_transformed):
+def replacer(to_be_transformed): #O(n^2)
 	replaced = ""
 	for char in to_be_transformed:
 		if char != " ":
